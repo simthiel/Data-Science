@@ -2,33 +2,12 @@
 # coding: utf-8
 
 # **Forecasting der Residuallast im Stromnetz: Ein Machine-Learning Showcase von Simon&nbsp;Thiel zur Demonstration grundlegendener Methodenkompetenz**
-# - Setup für lauffähigen Docker-Container
 # - Import und Bereinigung von Daten für das Stromnetz vom 10.06.22 bis zum 10.06.2025
 # - Demonstration grundlegender SQL-Kompetenz
 # - Visualisierung der Residuallast als Plausibilitätsüberprüfung
 # - Import von Wetterdaten (requested von https://open-meteo.com/en/docs/historical-weather-api und als .csv gespeichert) für verschiedene Städte, resampling nach Tagesmittelwert (Sonnenstrahlung (W/m^2), Wind (km/h in 100m Höhe), Temperatur (°C)) Zusammenführen der Daten in ein großes DataFrame und Definition von Tag pro Jahr und Tag der Woche
 # - ML Workflow mit Gradient Boosting als Modell
 # - Relevanz der einzelnen Features
-
-# # Setup für reproduzierbare Ausführung im Docker-Container: 
-# - Notebook wurde nach Python-Skript (.py) konvertiert, 
-# - Abhängigkeiten über packages.txt definiert, 
-# - ein Dockerfile erstellt, um das Skript im Container lauffähig zu machen. 
-# (Daten liegen lokal vor und wurden im Showcase nicht mitgeliefert.)
-# 
-
-# Terminal-Befehl um Jupyter-Notebook-Datei in Python-Datei zu konvertieren.
-
-# Inhalt von Packages.txt
-
-# docker build -t stromnetz-analysis .
-# docker run --rm -v $(pwd):/Data_Analysis/Stromnetz stromnetz-analysis
-# 
-
-# Inhalt von Dockerfile
-
-# In[2]:
-
 
 import numpy as np
 import pandas as pd
