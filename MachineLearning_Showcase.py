@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# **Forecasting der Residuallast im Stromnetz: Ein Machine-Learning Showcase von Simon&nbsp;Thiel zur Demonstration grundlegendener Methodenkompetenz**
+# **Forecasting der Residuallast im Stromnetz: Ein Machine-Learning Showcase von Simon Thiel zur Demonstration grundlegendener Methodenkompetenz**
 # - Import und Bereinigung von Daten für das Stromnetz vom 10.06.22 bis zum 10.06.2025
 # - Demonstration grundlegender SQL-Kompetenz
 # - Visualisierung der Residuallast als Plausibilitätsüberprüfung
